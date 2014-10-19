@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460EB28D19F3CC9000DA3E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460EB28C19F3CC9000DA3E9A /* AppDelegate.swift */; };
+		460EB28F19F3CC9000DA3E9A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460EB28E19F3CC9000DA3E9A /* MasterViewController.swift */; };
+		460EB29119F3CC9000DA3E9A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460EB29019F3CC9000DA3E9A /* DetailViewController.swift */; };
+		460EB29419F3CC9000DA3E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460EB29219F3CC9000DA3E9A /* Main.storyboard */; };
+		460EB29619F3CC9000DA3E9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460EB29519F3CC9000DA3E9A /* Images.xcassets */; };
+		460EB29919F3CC9000DA3E9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460EB29719F3CC9000DA3E9A /* LaunchScreen.xib */; };
+		460EB2A519F3CC9000DA3E9A /* donut_selfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460EB2A419F3CC9000DA3E9A /* donut_selfieTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		460EB29F19F3CC9000DA3E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460EB27F19F3CC9000DA3E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460EB28619F3CC9000DA3E9A;
+			remoteInfo = "donut-selfie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		460EB28719F3CC9000DA3E9A /* donut-selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "donut-selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		460EB28B19F3CC9000DA3E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460EB28C19F3CC9000DA3E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		460EB28E19F3CC9000DA3E9A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		460EB29019F3CC9000DA3E9A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		460EB29319F3CC9000DA3E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		460EB29519F3CC9000DA3E9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		460EB29819F3CC9000DA3E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		460EB29E19F3CC9000DA3E9A /* donut-selfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "donut-selfieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		460EB2A319F3CC9000DA3E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460EB2A419F3CC9000DA3E9A /* donut_selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donut_selfieTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460EB28419F3CC9000DA3E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460EB29B19F3CC9000DA3E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460EB27E19F3CC9000DA3E9A = {
+			isa = PBXGroup;
+			children = (
+				460EB28919F3CC9000DA3E9A /* donut-selfie */,
+				460EB2A119F3CC9000DA3E9A /* donut-selfieTests */,
+				460EB28819F3CC9000DA3E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		460EB28819F3CC9000DA3E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460EB28719F3CC9000DA3E9A /* donut-selfie.app */,
+				460EB29E19F3CC9000DA3E9A /* donut-selfieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460EB28919F3CC9000DA3E9A /* donut-selfie */ = {
+			isa = PBXGroup;
+			children = (
+				460EB28C19F3CC9000DA3E9A /* AppDelegate.swift */,
+				460EB28E19F3CC9000DA3E9A /* MasterViewController.swift */,
+				460EB29019F3CC9000DA3E9A /* DetailViewController.swift */,
+				460EB29219F3CC9000DA3E9A /* Main.storyboard */,
+				460EB29519F3CC9000DA3E9A /* Images.xcassets */,
+				460EB29719F3CC9000DA3E9A /* LaunchScreen.xib */,
+				460EB28A19F3CC9000DA3E9A /* Supporting Files */,
+			);
+			path = "donut-selfie";
+			sourceTree = "<group>";
+		};
+		460EB28A19F3CC9000DA3E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				460EB28B19F3CC9000DA3E9A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		460EB2A119F3CC9000DA3E9A /* donut-selfieTests */ = {
+			isa = PBXGroup;
+			children = (
+				460EB2A419F3CC9000DA3E9A /* donut_selfieTests.swift */,
+				460EB2A219F3CC9000DA3E9A /* Supporting Files */,
+			);
+			path = "donut-selfieTests";
+			sourceTree = "<group>";
+		};
+		460EB2A219F3CC9000DA3E9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				460EB2A319F3CC9000DA3E9A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460EB28619F3CC9000DA3E9A /* donut-selfie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460EB2A819F3CC9000DA3E9A /* Build configuration list for PBXNativeTarget "donut-selfie" */;
+			buildPhases = (
+				460EB28319F3CC9000DA3E9A /* Sources */,
+				460EB28419F3CC9000DA3E9A /* Frameworks */,
+				460EB28519F3CC9000DA3E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "donut-selfie";
+			productName = "donut-selfie";
+			productReference = 460EB28719F3CC9000DA3E9A /* donut-selfie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		460EB29D19F3CC9000DA3E9A /* donut-selfieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460EB2AB19F3CC9000DA3E9A /* Build configuration list for PBXNativeTarget "donut-selfieTests" */;
+			buildPhases = (
+				460EB29A19F3CC9000DA3E9A /* Sources */,
+				460EB29B19F3CC9000DA3E9A /* Frameworks */,
+				460EB29C19F3CC9000DA3E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460EB2A019F3CC9000DA3E9A /* PBXTargetDependency */,
+			);
+			name = "donut-selfieTests";
+			productName = "donut-selfieTests";
+			productReference = 460EB29E19F3CC9000DA3E9A /* donut-selfieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460EB27F19F3CC9000DA3E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = asb;
+				TargetAttributes = {
+					460EB28619F3CC9000DA3E9A = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					460EB29D19F3CC9000DA3E9A = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 460EB28619F3CC9000DA3E9A;
+					};
+				};
+			};
+			buildConfigurationList = 460EB28219F3CC9000DA3E9A /* Build configuration list for PBXProject "donut-selfie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460EB27E19F3CC9000DA3E9A;
+			productRefGroup = 460EB28819F3CC9000DA3E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460EB28619F3CC9000DA3E9A /* donut-selfie */,
+				460EB29D19F3CC9000DA3E9A /* donut-selfieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460EB28519F3CC9000DA3E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460EB29419F3CC9000DA3E9A /* Main.storyboard in Resources */,
+				460EB29919F3CC9000DA3E9A /* LaunchScreen.xib in Resources */,
+				460EB29619F3CC9000DA3E9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460EB29C19F3CC9000DA3E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460EB28319F3CC9000DA3E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460EB29119F3CC9000DA3E9A /* DetailViewController.swift in Sources */,
+				460EB28F19F3CC9000DA3E9A /* MasterViewController.swift in Sources */,
+				460EB28D19F3CC9000DA3E9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460EB29A19F3CC9000DA3E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460EB2A519F3CC9000DA3E9A /* donut_selfieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		460EB2A019F3CC9000DA3E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460EB28619F3CC9000DA3E9A /* donut-selfie */;
+			targetProxy = 460EB29F19F3CC9000DA3E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		460EB29219F3CC9000DA3E9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460EB29319F3CC9000DA3E9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		460EB29719F3CC9000DA3E9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460EB29819F3CC9000DA3E9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		460EB2A619F3CC9000DA3E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		460EB2A719F3CC9000DA3E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460EB2A919F3CC9000DA3E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "donut-selfie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		460EB2AA19F3CC9000DA3E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "donut-selfie/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		460EB2AC19F3CC9000DA3E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "donut-selfieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/donut-selfie.app/donut-selfie";
+			};
+			name = Debug;
+		};
+		460EB2AD19F3CC9000DA3E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "donut-selfieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/donut-selfie.app/donut-selfie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460EB28219F3CC9000DA3E9A /* Build configuration list for PBXProject "donut-selfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460EB2A619F3CC9000DA3E9A /* Debug */,
+				460EB2A719F3CC9000DA3E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460EB2A819F3CC9000DA3E9A /* Build configuration list for PBXNativeTarget "donut-selfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460EB2A919F3CC9000DA3E9A /* Debug */,
+				460EB2AA19F3CC9000DA3E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		460EB2AB19F3CC9000DA3E9A /* Build configuration list for PBXNativeTarget "donut-selfieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460EB2AC19F3CC9000DA3E9A /* Debug */,
+				460EB2AD19F3CC9000DA3E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 460EB27F19F3CC9000DA3E9A /* Project object */;
+}
