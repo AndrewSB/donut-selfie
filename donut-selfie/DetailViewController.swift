@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class DetailViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
@@ -30,6 +31,27 @@ class DetailViewController: UIViewController, UICollectionViewDataSource, UIColl
         }
     }
 
+    func mergeVideos() -> Void {
+        
+    }
+    
+    func generateThumbnail(url: NSURL) -> UIImage {
+        let asset = AVURLAsset(URL: url, options: nil)
+        let imageGenerator = AVAssetImageGenerator(asset: asset)
+        imageGenerator.appliesPreferredTrackTransform = true
+        
+        thumbTime: CMTime? = CMTimeMakeWithSeconds(0, preferredTimeScale: 12)
+        
+        handler = AVAssetImageGeneratorCompletionHandler({(requestedTime: CMTime?, im: CGImageRef?, actualTime: CMTime?, result: AVAssetImageGeneratorResult?, error: NSError?) do
+            if (result != .Succeeded) {
+                println("Couldn't generate thumbnail")
+            }
+            thumbImage = UIImage(CGImage: im)
+        })
+        
+        return thumbImage
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -48,12 +70,11 @@ class DetailViewController: UIViewController, UICollectionViewDataSource, UIColl
         let cell = videoCollectionView.dequeueReusableCellWithReuseIdentifier("cellID", forIndexPath: indexPath) as UICollectionViewCell
         
         
-        
         return cell
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 1
+        return 20
     }
 
 }

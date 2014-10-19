@@ -38,6 +38,7 @@
 		460EB29E19F3CC9000DA3E9A /* donut-selfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "donut-selfieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		460EB2A319F3CC9000DA3E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		460EB2A419F3CC9000DA3E9A /* donut_selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donut_selfieTests.swift; sourceTree = "<group>"; };
+		4664DF3B19F3DCF500465A1B /* test-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "test-video.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 				460EB29019F3CC9000DA3E9A /* DetailViewController.swift */,
 				460EB29219F3CC9000DA3E9A /* Main.storyboard */,
 				460EB29519F3CC9000DA3E9A /* Images.xcassets */,
+				4664DF3B19F3DCF500465A1B /* test-video.mp4 */,
 				460EB29719F3CC9000DA3E9A /* LaunchScreen.xib */,
 				460EB28A19F3CC9000DA3E9A /* Supporting Files */,
 			);
@@ -164,6 +166,7 @@
 				TargetAttributes = {
 					460EB28619F3CC9000DA3E9A = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = JQUR3MJ3GB;
 					};
 					460EB29D19F3CC9000DA3E9A = {
 						CreatedOnToolsVersion = 6.0;
@@ -342,10 +345,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "donut-selfie/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -353,10 +359,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "donut-selfie/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -413,6 +422,7 @@
 				460EB2AA19F3CC9000DA3E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		460EB2AB19F3CC9000DA3E9A /* Build configuration list for PBXNativeTarget "donut-selfieTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +431,7 @@
 				460EB2AD19F3CC9000DA3E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
