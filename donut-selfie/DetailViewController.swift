@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import AVFoundation
 
 class DetailViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
@@ -31,15 +30,6 @@ class DetailViewController: UIViewController, UICollectionViewDataSource, UIColl
         }
     }
 
-    func mergeVideos() -> Void {
-        
-    }
-    
-    func generateThumbnail() -> Void {
-
-    }
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -58,11 +48,12 @@ class DetailViewController: UIViewController, UICollectionViewDataSource, UIColl
         let cell = videoCollectionView.dequeueReusableCellWithReuseIdentifier("cellID", forIndexPath: indexPath) as UICollectionViewCell
         
         
+        
         return cell
     }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 20
+        return 1
     }
 
 }
