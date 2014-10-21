@@ -35,22 +35,10 @@ class DetailViewController: UIViewController, UICollectionViewDataSource, UIColl
         
     }
     
-    func generateThumbnail(url: NSURL) -> UIImage {
-        let asset = AVURLAsset(URL: url, options: nil)
-        let imageGenerator = AVAssetImageGenerator(asset: asset)
-        imageGenerator.appliesPreferredTrackTransform = true
-        
-        thumbTime: CMTime? = CMTimeMakeWithSeconds(0, preferredTimeScale: 12)
-        
-        handler = AVAssetImageGeneratorCompletionHandler({(requestedTime: CMTime?, im: CGImageRef?, actualTime: CMTime?, result: AVAssetImageGeneratorResult?, error: NSError?) do
-            if (result != .Succeeded) {
-                println("Couldn't generate thumbnail")
-            }
-            thumbImage = UIImage(CGImage: im)
-        })
-        
-        return thumbImage
+    func generateThumbnail() -> Void {
+
     }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
