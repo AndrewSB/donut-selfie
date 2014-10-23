@@ -14,6 +14,7 @@
 		0E44BB9719F8FAB7001312DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E44BB9619F8FAB7001312DF /* Images.xcassets */; };
 		0E44BB9A19F8FAB7001312DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E44BB9819F8FAB7001312DF /* LaunchScreen.xib */; };
 		0E44BBA619F8FAB7001312DF /* donut_selfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E44BBA519F8FAB7001312DF /* donut_selfieTests.swift */; };
+		461A1BAF19F8FC3600DF9EE8 /* DoughnutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461A1BAE19F8FC3600DF9EE8 /* DoughnutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		0E44BB9F19F8FAB7001312DF /* donut-selfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "donut-selfieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E44BBA419F8FAB7001312DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E44BBA519F8FAB7001312DF /* donut_selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donut_selfieTests.swift; sourceTree = "<group>"; };
+		461A1BAE19F8FC3600DF9EE8 /* DoughnutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoughnutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				0E44BB8C19F8FAB7001312DF /* AppDelegate.swift */,
 				0E44BB9119F8FAB7001312DF /* ViewController.swift */,
+				461A1BAE19F8FC3600DF9EE8 /* DoughnutViewController.swift */,
 				0E44BB9319F8FAB7001312DF /* Main.storyboard */,
 				0E44BB9619F8FAB7001312DF /* Images.xcassets */,
 				0E44BB9819F8FAB7001312DF /* LaunchScreen.xib */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461A1BAF19F8FC3600DF9EE8 /* DoughnutViewController.swift in Sources */,
 				0E44BB9219F8FAB7001312DF /* ViewController.swift in Sources */,
 				0E44BB9019F8FAB7001312DF /* donut_selfie.xcdatamodeld in Sources */,
 				0E44BB8D19F8FAB7001312DF /* AppDelegate.swift in Sources */,
@@ -411,6 +415,7 @@
 				0E44BBAB19F8FAB7001312DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E44BBAC19F8FAB7001312DF /* Build configuration list for PBXNativeTarget "donut-selfieTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				0E44BBAE19F8FAB7001312DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

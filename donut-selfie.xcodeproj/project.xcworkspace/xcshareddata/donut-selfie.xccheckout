@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>2EFBB621-10CD-4A7E-8C40-F8B6FF532CAD</string>
+	<string>B89AA973-7933-45D7-BBA9-78088153FCDB</string>
 	<key>IDESourceControlProjectName</key>
 	<string>donut-selfie</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/AndrewSB/donut-selfie.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>donut-selfie/donut-selfie.xcodeproj</string>
+	<string>donut-selfie.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>3F02ED4C768B2F013CC2546801B22F811B37CE80</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/AndrewSB/donut-selfie.git</string>
