@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		46AA00BC19F8D3D800E3AE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA00BB19F8D3D800E3AE25 /* AppDelegate.swift */; };
-		46AA00BF19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46AA00BD19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld */; };
-		46AA00C119F8D3D800E3AE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA00C019F8D3D800E3AE25 /* ViewController.swift */; };
-		46AA00C419F8D3D800E3AE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AA00C219F8D3D800E3AE25 /* Main.storyboard */; };
-		46AA00C619F8D3D800E3AE25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AA00C519F8D3D800E3AE25 /* Images.xcassets */; };
-		46AA00C919F8D3D800E3AE25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46AA00C719F8D3D800E3AE25 /* LaunchScreen.xib */; };
-		46AA00D519F8D3D800E3AE25 /* donut_selfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA00D419F8D3D800E3AE25 /* donut_selfieTests.swift */; };
+		0E44BB8D19F8FAB7001312DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E44BB8C19F8FAB7001312DF /* AppDelegate.swift */; };
+		0E44BB9019F8FAB7001312DF /* donut_selfie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E44BB8E19F8FAB7001312DF /* donut_selfie.xcdatamodeld */; };
+		0E44BB9219F8FAB7001312DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E44BB9119F8FAB7001312DF /* ViewController.swift */; };
+		0E44BB9519F8FAB7001312DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E44BB9319F8FAB7001312DF /* Main.storyboard */; };
+		0E44BB9719F8FAB7001312DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E44BB9619F8FAB7001312DF /* Images.xcassets */; };
+		0E44BB9A19F8FAB7001312DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E44BB9819F8FAB7001312DF /* LaunchScreen.xib */; };
+		0E44BBA619F8FAB7001312DF /* donut_selfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E44BBA519F8FAB7001312DF /* donut_selfieTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		46AA00CF19F8D3D800E3AE25 /* PBXContainerItemProxy */ = {
+		0E44BBA019F8FAB7001312DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 46AA00AE19F8D3D800E3AE25 /* Project object */;
+			containerPortal = 0E44BB7F19F8FAB7001312DF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 46AA00B519F8D3D800E3AE25;
+			remoteGlobalIDString = 0E44BB8619F8FAB7001312DF;
 			remoteInfo = "donut-selfie";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		46AA00B619F8D3D800E3AE25 /* donut-selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "donut-selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46AA00BA19F8D3D800E3AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46AA00BB19F8D3D800E3AE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46AA00BE19F8D3D800E3AE25 /* donut_selfie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = donut_selfie.xcdatamodel; sourceTree = "<group>"; };
-		46AA00C019F8D3D800E3AE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46AA00C319F8D3D800E3AE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46AA00C519F8D3D800E3AE25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		46AA00C819F8D3D800E3AE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		46AA00CE19F8D3D800E3AE25 /* donut-selfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "donut-selfieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		46AA00D319F8D3D800E3AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46AA00D419F8D3D800E3AE25 /* donut_selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donut_selfieTests.swift; sourceTree = "<group>"; };
+		0E44BB8719F8FAB7001312DF /* donut-selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "donut-selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E44BB8B19F8FAB7001312DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E44BB8C19F8FAB7001312DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0E44BB8F19F8FAB7001312DF /* donut_selfie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = donut_selfie.xcdatamodel; sourceTree = "<group>"; };
+		0E44BB9119F8FAB7001312DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0E44BB9419F8FAB7001312DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E44BB9619F8FAB7001312DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0E44BB9919F8FAB7001312DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0E44BB9F19F8FAB7001312DF /* donut-selfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "donut-selfieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E44BBA419F8FAB7001312DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E44BBA519F8FAB7001312DF /* donut_selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donut_selfieTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		46AA00B319F8D3D800E3AE25 /* Frameworks */ = {
+		0E44BB8419F8FAB7001312DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46AA00CB19F8D3D800E3AE25 /* Frameworks */ = {
+		0E44BB9C19F8FAB7001312DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,59 +58,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		46AA00AD19F8D3D800E3AE25 = {
+		0E44BB7E19F8FAB7001312DF = {
 			isa = PBXGroup;
 			children = (
-				46AA00B819F8D3D800E3AE25 /* donut-selfie */,
-				46AA00D119F8D3D800E3AE25 /* donut-selfieTests */,
-				46AA00B719F8D3D800E3AE25 /* Products */,
+				0E44BB8919F8FAB7001312DF /* donut-selfie */,
+				0E44BBA219F8FAB7001312DF /* donut-selfieTests */,
+				0E44BB8819F8FAB7001312DF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		46AA00B719F8D3D800E3AE25 /* Products */ = {
+		0E44BB8819F8FAB7001312DF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				46AA00B619F8D3D800E3AE25 /* donut-selfie.app */,
-				46AA00CE19F8D3D800E3AE25 /* donut-selfieTests.xctest */,
+				0E44BB8719F8FAB7001312DF /* donut-selfie.app */,
+				0E44BB9F19F8FAB7001312DF /* donut-selfieTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		46AA00B819F8D3D800E3AE25 /* donut-selfie */ = {
+		0E44BB8919F8FAB7001312DF /* donut-selfie */ = {
 			isa = PBXGroup;
 			children = (
-				46AA00BB19F8D3D800E3AE25 /* AppDelegate.swift */,
-				46AA00C019F8D3D800E3AE25 /* ViewController.swift */,
-				46AA00C219F8D3D800E3AE25 /* Main.storyboard */,
-				46AA00C519F8D3D800E3AE25 /* Images.xcassets */,
-				46AA00C719F8D3D800E3AE25 /* LaunchScreen.xib */,
-				46AA00BD19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld */,
-				46AA00B919F8D3D800E3AE25 /* Supporting Files */,
+				0E44BB8C19F8FAB7001312DF /* AppDelegate.swift */,
+				0E44BB9119F8FAB7001312DF /* ViewController.swift */,
+				0E44BB9319F8FAB7001312DF /* Main.storyboard */,
+				0E44BB9619F8FAB7001312DF /* Images.xcassets */,
+				0E44BB9819F8FAB7001312DF /* LaunchScreen.xib */,
+				0E44BB8E19F8FAB7001312DF /* donut_selfie.xcdatamodeld */,
+				0E44BB8A19F8FAB7001312DF /* Supporting Files */,
 			);
 			path = "donut-selfie";
 			sourceTree = "<group>";
 		};
-		46AA00B919F8D3D800E3AE25 /* Supporting Files */ = {
+		0E44BB8A19F8FAB7001312DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				46AA00BA19F8D3D800E3AE25 /* Info.plist */,
+				0E44BB8B19F8FAB7001312DF /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		46AA00D119F8D3D800E3AE25 /* donut-selfieTests */ = {
+		0E44BBA219F8FAB7001312DF /* donut-selfieTests */ = {
 			isa = PBXGroup;
 			children = (
-				46AA00D419F8D3D800E3AE25 /* donut_selfieTests.swift */,
-				46AA00D219F8D3D800E3AE25 /* Supporting Files */,
+				0E44BBA519F8FAB7001312DF /* donut_selfieTests.swift */,
+				0E44BBA319F8FAB7001312DF /* Supporting Files */,
 			);
 			path = "donut-selfieTests";
 			sourceTree = "<group>";
 		};
-		46AA00D219F8D3D800E3AE25 /* Supporting Files */ = {
+		0E44BBA319F8FAB7001312DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				46AA00D319F8D3D800E3AE25 /* Info.plist */,
+				0E44BBA419F8FAB7001312DF /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,13 +118,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		46AA00B519F8D3D800E3AE25 /* donut-selfie */ = {
+		0E44BB8619F8FAB7001312DF /* donut-selfie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46AA00D819F8D3D800E3AE25 /* Build configuration list for PBXNativeTarget "donut-selfie" */;
+			buildConfigurationList = 0E44BBA919F8FAB7001312DF /* Build configuration list for PBXNativeTarget "donut-selfie" */;
 			buildPhases = (
-				46AA00B219F8D3D800E3AE25 /* Sources */,
-				46AA00B319F8D3D800E3AE25 /* Frameworks */,
-				46AA00B419F8D3D800E3AE25 /* Resources */,
+				0E44BB8319F8FAB7001312DF /* Sources */,
+				0E44BB8419F8FAB7001312DF /* Frameworks */,
+				0E44BB8519F8FAB7001312DF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +132,46 @@
 			);
 			name = "donut-selfie";
 			productName = "donut-selfie";
-			productReference = 46AA00B619F8D3D800E3AE25 /* donut-selfie.app */;
+			productReference = 0E44BB8719F8FAB7001312DF /* donut-selfie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		46AA00CD19F8D3D800E3AE25 /* donut-selfieTests */ = {
+		0E44BB9E19F8FAB7001312DF /* donut-selfieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 46AA00DB19F8D3D800E3AE25 /* Build configuration list for PBXNativeTarget "donut-selfieTests" */;
+			buildConfigurationList = 0E44BBAC19F8FAB7001312DF /* Build configuration list for PBXNativeTarget "donut-selfieTests" */;
 			buildPhases = (
-				46AA00CA19F8D3D800E3AE25 /* Sources */,
-				46AA00CB19F8D3D800E3AE25 /* Frameworks */,
-				46AA00CC19F8D3D800E3AE25 /* Resources */,
+				0E44BB9B19F8FAB7001312DF /* Sources */,
+				0E44BB9C19F8FAB7001312DF /* Frameworks */,
+				0E44BB9D19F8FAB7001312DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				46AA00D019F8D3D800E3AE25 /* PBXTargetDependency */,
+				0E44BBA119F8FAB7001312DF /* PBXTargetDependency */,
 			);
 			name = "donut-selfieTests";
 			productName = "donut-selfieTests";
-			productReference = 46AA00CE19F8D3D800E3AE25 /* donut-selfieTests.xctest */;
+			productReference = 0E44BB9F19F8FAB7001312DF /* donut-selfieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		46AA00AE19F8D3D800E3AE25 /* Project object */ = {
+		0E44BB7F19F8FAB7001312DF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = asb;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = sprinkles;
 				TargetAttributes = {
-					46AA00B519F8D3D800E3AE25 = {
-						CreatedOnToolsVersion = 6.0;
+					0E44BB8619F8FAB7001312DF = {
+						CreatedOnToolsVersion = 6.1;
 					};
-					46AA00CD19F8D3D800E3AE25 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 46AA00B519F8D3D800E3AE25;
+					0E44BB9E19F8FAB7001312DF = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 0E44BB8619F8FAB7001312DF;
 					};
 				};
 			};
-			buildConfigurationList = 46AA00B119F8D3D800E3AE25 /* Build configuration list for PBXProject "donut-selfie" */;
+			buildConfigurationList = 0E44BB8219F8FAB7001312DF /* Build configuration list for PBXProject "donut-selfie" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +179,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 46AA00AD19F8D3D800E3AE25;
-			productRefGroup = 46AA00B719F8D3D800E3AE25 /* Products */;
+			mainGroup = 0E44BB7E19F8FAB7001312DF;
+			productRefGroup = 0E44BB8819F8FAB7001312DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				46AA00B519F8D3D800E3AE25 /* donut-selfie */,
-				46AA00CD19F8D3D800E3AE25 /* donut-selfieTests */,
+				0E44BB8619F8FAB7001312DF /* donut-selfie */,
+				0E44BB9E19F8FAB7001312DF /* donut-selfieTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46AA00B419F8D3D800E3AE25 /* Resources */ = {
+		0E44BB8519F8FAB7001312DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46AA00C419F8D3D800E3AE25 /* Main.storyboard in Resources */,
-				46AA00C919F8D3D800E3AE25 /* LaunchScreen.xib in Resources */,
-				46AA00C619F8D3D800E3AE25 /* Images.xcassets in Resources */,
+				0E44BB9519F8FAB7001312DF /* Main.storyboard in Resources */,
+				0E44BB9A19F8FAB7001312DF /* LaunchScreen.xib in Resources */,
+				0E44BB9719F8FAB7001312DF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46AA00CC19F8D3D800E3AE25 /* Resources */ = {
+		0E44BB9D19F8FAB7001312DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +211,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		46AA00B219F8D3D800E3AE25 /* Sources */ = {
+		0E44BB8319F8FAB7001312DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46AA00C119F8D3D800E3AE25 /* ViewController.swift in Sources */,
-				46AA00BF19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld in Sources */,
-				46AA00BC19F8D3D800E3AE25 /* AppDelegate.swift in Sources */,
+				0E44BB9219F8FAB7001312DF /* ViewController.swift in Sources */,
+				0E44BB9019F8FAB7001312DF /* donut_selfie.xcdatamodeld in Sources */,
+				0E44BB8D19F8FAB7001312DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46AA00CA19F8D3D800E3AE25 /* Sources */ = {
+		0E44BB9B19F8FAB7001312DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46AA00D519F8D3D800E3AE25 /* donut_selfieTests.swift in Sources */,
+				0E44BBA619F8FAB7001312DF /* donut_selfieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		46AA00D019F8D3D800E3AE25 /* PBXTargetDependency */ = {
+		0E44BBA119F8FAB7001312DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 46AA00B519F8D3D800E3AE25 /* donut-selfie */;
-			targetProxy = 46AA00CF19F8D3D800E3AE25 /* PBXContainerItemProxy */;
+			target = 0E44BB8619F8FAB7001312DF /* donut-selfie */;
+			targetProxy = 0E44BBA019F8FAB7001312DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46AA00C219F8D3D800E3AE25 /* Main.storyboard */ = {
+		0E44BB9319F8FAB7001312DF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46AA00C319F8D3D800E3AE25 /* Base */,
+				0E44BB9419F8FAB7001312DF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		46AA00C719F8D3D800E3AE25 /* LaunchScreen.xib */ = {
+		0E44BB9819F8FAB7001312DF /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46AA00C819F8D3D800E3AE25 /* Base */,
+				0E44BB9919F8FAB7001312DF /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		46AA00D619F8D3D800E3AE25 /* Debug */ = {
+		0E44BBA719F8FAB7001312DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -293,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -302,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		46AA00D719F8D3D800E3AE25 /* Release */ = {
+		0E44BBA819F8FAB7001312DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,29 +338,27 @@
 			};
 			name = Release;
 		};
-		46AA00D919F8D3D800E3AE25 /* Debug */ = {
+		0E44BBAA19F8FAB7001312DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "donut-selfie/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		46AA00DA19F8D3D800E3AE25 /* Release */ = {
+		0E44BBAB19F8FAB7001312DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "donut-selfie/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		46AA00DC19F8D3D800E3AE25 /* Debug */ = {
+		0E44BBAD19F8FAB7001312DF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -379,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		46AA00DD19F8D3D800E3AE25 /* Release */ = {
+		0E44BBAE19F8FAB7001312DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -397,47 +395,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		46AA00B119F8D3D800E3AE25 /* Build configuration list for PBXProject "donut-selfie" */ = {
+		0E44BB8219F8FAB7001312DF /* Build configuration list for PBXProject "donut-selfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46AA00D619F8D3D800E3AE25 /* Debug */,
-				46AA00D719F8D3D800E3AE25 /* Release */,
+				0E44BBA719F8FAB7001312DF /* Debug */,
+				0E44BBA819F8FAB7001312DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46AA00D819F8D3D800E3AE25 /* Build configuration list for PBXNativeTarget "donut-selfie" */ = {
+		0E44BBA919F8FAB7001312DF /* Build configuration list for PBXNativeTarget "donut-selfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46AA00D919F8D3D800E3AE25 /* Debug */,
-				46AA00DA19F8D3D800E3AE25 /* Release */,
+				0E44BBAA19F8FAB7001312DF /* Debug */,
+				0E44BBAB19F8FAB7001312DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		46AA00DB19F8D3D800E3AE25 /* Build configuration list for PBXNativeTarget "donut-selfieTests" */ = {
+		0E44BBAC19F8FAB7001312DF /* Build configuration list for PBXNativeTarget "donut-selfieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				46AA00DC19F8D3D800E3AE25 /* Debug */,
-				46AA00DD19F8D3D800E3AE25 /* Release */,
+				0E44BBAD19F8FAB7001312DF /* Debug */,
+				0E44BBAE19F8FAB7001312DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		46AA00BD19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld */ = {
+		0E44BB8E19F8FAB7001312DF /* donut_selfie.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				46AA00BE19F8D3D800E3AE25 /* donut_selfie.xcdatamodel */,
+				0E44BB8F19F8FAB7001312DF /* donut_selfie.xcdatamodel */,
 			);
-			currentVersion = 46AA00BE19F8D3D800E3AE25 /* donut_selfie.xcdatamodel */;
+			currentVersion = 0E44BB8F19F8FAB7001312DF /* donut_selfie.xcdatamodel */;
 			path = donut_selfie.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 46AA00AE19F8D3D800E3AE25 /* Project object */;
+	rootObject = 0E44BB7F19F8FAB7001312DF /* Project object */;
 }

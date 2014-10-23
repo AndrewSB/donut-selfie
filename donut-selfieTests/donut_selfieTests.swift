@@ -2,8 +2,8 @@
 //  donut_selfieTests.swift
 //  donut-selfieTests
 //
-//  Created by Andrew Breckenridge on 10/23/14.
-//  Copyright (c) 2014 asb. All rights reserved.
+//  Created by Arjun Sarode on 10/23/14.
+//  Copyright (c) 2014 sprinkles. All rights reserved.
 //
 
 import UIKit
