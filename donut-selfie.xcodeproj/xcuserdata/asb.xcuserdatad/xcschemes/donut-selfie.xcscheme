@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "460EB28619F3CC9000DA3E9A"
+               BlueprintIdentifier = "46AA00B519F8D3D800E3AE25"
                BuildableName = "donut-selfie.app"
                BlueprintName = "donut-selfie"
                ReferencedContainer = "container:donut-selfie.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "460EB29D19F3CC9000DA3E9A"
+               BlueprintIdentifier = "46AA00CD19F8D3D800E3AE25"
                BuildableName = "donut-selfieTests.xctest"
                BlueprintName = "donut-selfieTests"
                ReferencedContainer = "container:donut-selfie.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "460EB29D19F3CC9000DA3E9A"
+               BlueprintIdentifier = "46AA00CD19F8D3D800E3AE25"
                BuildableName = "donut-selfieTests.xctest"
                BlueprintName = "donut-selfieTests"
                ReferencedContainer = "container:donut-selfie.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "460EB28619F3CC9000DA3E9A"
+            BlueprintIdentifier = "46AA00B519F8D3D800E3AE25"
             BuildableName = "donut-selfie.app"
             BlueprintName = "donut-selfie"
             ReferencedContainer = "container:donut-selfie.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "460EB28619F3CC9000DA3E9A"
+            BlueprintIdentifier = "46AA00B519F8D3D800E3AE25"
             BuildableName = "donut-selfie.app"
             BlueprintName = "donut-selfie"
             ReferencedContainer = "container:donut-selfie.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "460EB28619F3CC9000DA3E9A"
+            BlueprintIdentifier = "46AA00B519F8D3D800E3AE25"
             BuildableName = "donut-selfie.app"
             BlueprintName = "donut-selfie"
             ReferencedContainer = "container:donut-selfie.xcodeproj">

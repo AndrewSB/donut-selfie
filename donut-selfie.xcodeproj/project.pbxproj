@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		460EB28D19F3CC9000DA3E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460EB28C19F3CC9000DA3E9A /* AppDelegate.swift */; };
-		460EB28F19F3CC9000DA3E9A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460EB28E19F3CC9000DA3E9A /* MasterViewController.swift */; };
-		460EB29119F3CC9000DA3E9A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460EB29019F3CC9000DA3E9A /* DetailViewController.swift */; };
-		460EB29419F3CC9000DA3E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460EB29219F3CC9000DA3E9A /* Main.storyboard */; };
-		460EB29619F3CC9000DA3E9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460EB29519F3CC9000DA3E9A /* Images.xcassets */; };
-		460EB29919F3CC9000DA3E9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 460EB29719F3CC9000DA3E9A /* LaunchScreen.xib */; };
-		460EB2A519F3CC9000DA3E9A /* donut_selfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460EB2A419F3CC9000DA3E9A /* donut_selfieTests.swift */; };
+		46AA00BC19F8D3D800E3AE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA00BB19F8D3D800E3AE25 /* AppDelegate.swift */; };
+		46AA00BF19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46AA00BD19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld */; };
+		46AA00C119F8D3D800E3AE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA00C019F8D3D800E3AE25 /* ViewController.swift */; };
+		46AA00C419F8D3D800E3AE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46AA00C219F8D3D800E3AE25 /* Main.storyboard */; };
+		46AA00C619F8D3D800E3AE25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AA00C519F8D3D800E3AE25 /* Images.xcassets */; };
+		46AA00C919F8D3D800E3AE25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46AA00C719F8D3D800E3AE25 /* LaunchScreen.xib */; };
+		46AA00D519F8D3D800E3AE25 /* donut_selfieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA00D419F8D3D800E3AE25 /* donut_selfieTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		460EB29F19F3CC9000DA3E9A /* PBXContainerItemProxy */ = {
+		46AA00CF19F8D3D800E3AE25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 460EB27F19F3CC9000DA3E9A /* Project object */;
+			containerPortal = 46AA00AE19F8D3D800E3AE25 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 460EB28619F3CC9000DA3E9A;
+			remoteGlobalIDString = 46AA00B519F8D3D800E3AE25;
 			remoteInfo = "donut-selfie";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		460EB28719F3CC9000DA3E9A /* donut-selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "donut-selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		460EB28B19F3CC9000DA3E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		460EB28C19F3CC9000DA3E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		460EB28E19F3CC9000DA3E9A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		460EB29019F3CC9000DA3E9A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		460EB29319F3CC9000DA3E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		460EB29519F3CC9000DA3E9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		460EB29819F3CC9000DA3E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		460EB29E19F3CC9000DA3E9A /* donut-selfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "donut-selfieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		460EB2A319F3CC9000DA3E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		460EB2A419F3CC9000DA3E9A /* donut_selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donut_selfieTests.swift; sourceTree = "<group>"; };
+		46AA00B619F8D3D800E3AE25 /* donut-selfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "donut-selfie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AA00BA19F8D3D800E3AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AA00BB19F8D3D800E3AE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46AA00BE19F8D3D800E3AE25 /* donut_selfie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = donut_selfie.xcdatamodel; sourceTree = "<group>"; };
+		46AA00C019F8D3D800E3AE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46AA00C319F8D3D800E3AE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46AA00C519F8D3D800E3AE25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46AA00C819F8D3D800E3AE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		46AA00CE19F8D3D800E3AE25 /* donut-selfieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "donut-selfieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AA00D319F8D3D800E3AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AA00D419F8D3D800E3AE25 /* donut_selfieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = donut_selfieTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		460EB28419F3CC9000DA3E9A /* Frameworks */ = {
+		46AA00B319F8D3D800E3AE25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		460EB29B19F3CC9000DA3E9A /* Frameworks */ = {
+		46AA00CB19F8D3D800E3AE25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,59 +58,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		460EB27E19F3CC9000DA3E9A = {
+		46AA00AD19F8D3D800E3AE25 = {
 			isa = PBXGroup;
 			children = (
-				460EB28919F3CC9000DA3E9A /* donut-selfie */,
-				460EB2A119F3CC9000DA3E9A /* donut-selfieTests */,
-				460EB28819F3CC9000DA3E9A /* Products */,
+				46AA00B819F8D3D800E3AE25 /* donut-selfie */,
+				46AA00D119F8D3D800E3AE25 /* donut-selfieTests */,
+				46AA00B719F8D3D800E3AE25 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		460EB28819F3CC9000DA3E9A /* Products */ = {
+		46AA00B719F8D3D800E3AE25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				460EB28719F3CC9000DA3E9A /* donut-selfie.app */,
-				460EB29E19F3CC9000DA3E9A /* donut-selfieTests.xctest */,
+				46AA00B619F8D3D800E3AE25 /* donut-selfie.app */,
+				46AA00CE19F8D3D800E3AE25 /* donut-selfieTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		460EB28919F3CC9000DA3E9A /* donut-selfie */ = {
+		46AA00B819F8D3D800E3AE25 /* donut-selfie */ = {
 			isa = PBXGroup;
 			children = (
-				460EB28C19F3CC9000DA3E9A /* AppDelegate.swift */,
-				460EB28E19F3CC9000DA3E9A /* MasterViewController.swift */,
-				460EB29019F3CC9000DA3E9A /* DetailViewController.swift */,
-				460EB29219F3CC9000DA3E9A /* Main.storyboard */,
-				460EB29519F3CC9000DA3E9A /* Images.xcassets */,
-				460EB29719F3CC9000DA3E9A /* LaunchScreen.xib */,
-				460EB28A19F3CC9000DA3E9A /* Supporting Files */,
+				46AA00BB19F8D3D800E3AE25 /* AppDelegate.swift */,
+				46AA00C019F8D3D800E3AE25 /* ViewController.swift */,
+				46AA00C219F8D3D800E3AE25 /* Main.storyboard */,
+				46AA00C519F8D3D800E3AE25 /* Images.xcassets */,
+				46AA00C719F8D3D800E3AE25 /* LaunchScreen.xib */,
+				46AA00BD19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld */,
+				46AA00B919F8D3D800E3AE25 /* Supporting Files */,
 			);
 			path = "donut-selfie";
 			sourceTree = "<group>";
 		};
-		460EB28A19F3CC9000DA3E9A /* Supporting Files */ = {
+		46AA00B919F8D3D800E3AE25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				460EB28B19F3CC9000DA3E9A /* Info.plist */,
+				46AA00BA19F8D3D800E3AE25 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		460EB2A119F3CC9000DA3E9A /* donut-selfieTests */ = {
+		46AA00D119F8D3D800E3AE25 /* donut-selfieTests */ = {
 			isa = PBXGroup;
 			children = (
-				460EB2A419F3CC9000DA3E9A /* donut_selfieTests.swift */,
-				460EB2A219F3CC9000DA3E9A /* Supporting Files */,
+				46AA00D419F8D3D800E3AE25 /* donut_selfieTests.swift */,
+				46AA00D219F8D3D800E3AE25 /* Supporting Files */,
 			);
 			path = "donut-selfieTests";
 			sourceTree = "<group>";
 		};
-		460EB2A219F3CC9000DA3E9A /* Supporting Files */ = {
+		46AA00D219F8D3D800E3AE25 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				460EB2A319F3CC9000DA3E9A /* Info.plist */,
+				46AA00D319F8D3D800E3AE25 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,13 +118,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		460EB28619F3CC9000DA3E9A /* donut-selfie */ = {
+		46AA00B519F8D3D800E3AE25 /* donut-selfie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 460EB2A819F3CC9000DA3E9A /* Build configuration list for PBXNativeTarget "donut-selfie" */;
+			buildConfigurationList = 46AA00D819F8D3D800E3AE25 /* Build configuration list for PBXNativeTarget "donut-selfie" */;
 			buildPhases = (
-				460EB28319F3CC9000DA3E9A /* Sources */,
-				460EB28419F3CC9000DA3E9A /* Frameworks */,
-				460EB28519F3CC9000DA3E9A /* Resources */,
+				46AA00B219F8D3D800E3AE25 /* Sources */,
+				46AA00B319F8D3D800E3AE25 /* Frameworks */,
+				46AA00B419F8D3D800E3AE25 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +132,46 @@
 			);
 			name = "donut-selfie";
 			productName = "donut-selfie";
-			productReference = 460EB28719F3CC9000DA3E9A /* donut-selfie.app */;
+			productReference = 46AA00B619F8D3D800E3AE25 /* donut-selfie.app */;
 			productType = "com.apple.product-type.application";
 		};
-		460EB29D19F3CC9000DA3E9A /* donut-selfieTests */ = {
+		46AA00CD19F8D3D800E3AE25 /* donut-selfieTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 460EB2AB19F3CC9000DA3E9A /* Build configuration list for PBXNativeTarget "donut-selfieTests" */;
+			buildConfigurationList = 46AA00DB19F8D3D800E3AE25 /* Build configuration list for PBXNativeTarget "donut-selfieTests" */;
 			buildPhases = (
-				460EB29A19F3CC9000DA3E9A /* Sources */,
-				460EB29B19F3CC9000DA3E9A /* Frameworks */,
-				460EB29C19F3CC9000DA3E9A /* Resources */,
+				46AA00CA19F8D3D800E3AE25 /* Sources */,
+				46AA00CB19F8D3D800E3AE25 /* Frameworks */,
+				46AA00CC19F8D3D800E3AE25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				460EB2A019F3CC9000DA3E9A /* PBXTargetDependency */,
+				46AA00D019F8D3D800E3AE25 /* PBXTargetDependency */,
 			);
 			name = "donut-selfieTests";
 			productName = "donut-selfieTests";
-			productReference = 460EB29E19F3CC9000DA3E9A /* donut-selfieTests.xctest */;
+			productReference = 46AA00CE19F8D3D800E3AE25 /* donut-selfieTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		460EB27F19F3CC9000DA3E9A /* Project object */ = {
+		46AA00AE19F8D3D800E3AE25 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = asb;
 				TargetAttributes = {
-					460EB28619F3CC9000DA3E9A = {
+					46AA00B519F8D3D800E3AE25 = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					460EB29D19F3CC9000DA3E9A = {
+					46AA00CD19F8D3D800E3AE25 = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 460EB28619F3CC9000DA3E9A;
+						TestTargetID = 46AA00B519F8D3D800E3AE25;
 					};
 				};
 			};
-			buildConfigurationList = 460EB28219F3CC9000DA3E9A /* Build configuration list for PBXProject "donut-selfie" */;
+			buildConfigurationList = 46AA00B119F8D3D800E3AE25 /* Build configuration list for PBXProject "donut-selfie" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +179,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 460EB27E19F3CC9000DA3E9A;
-			productRefGroup = 460EB28819F3CC9000DA3E9A /* Products */;
+			mainGroup = 46AA00AD19F8D3D800E3AE25;
+			productRefGroup = 46AA00B719F8D3D800E3AE25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				460EB28619F3CC9000DA3E9A /* donut-selfie */,
-				460EB29D19F3CC9000DA3E9A /* donut-selfieTests */,
+				46AA00B519F8D3D800E3AE25 /* donut-selfie */,
+				46AA00CD19F8D3D800E3AE25 /* donut-selfieTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		460EB28519F3CC9000DA3E9A /* Resources */ = {
+		46AA00B419F8D3D800E3AE25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				460EB29419F3CC9000DA3E9A /* Main.storyboard in Resources */,
-				460EB29919F3CC9000DA3E9A /* LaunchScreen.xib in Resources */,
-				460EB29619F3CC9000DA3E9A /* Images.xcassets in Resources */,
+				46AA00C419F8D3D800E3AE25 /* Main.storyboard in Resources */,
+				46AA00C919F8D3D800E3AE25 /* LaunchScreen.xib in Resources */,
+				46AA00C619F8D3D800E3AE25 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		460EB29C19F3CC9000DA3E9A /* Resources */ = {
+		46AA00CC19F8D3D800E3AE25 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +211,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		460EB28319F3CC9000DA3E9A /* Sources */ = {
+		46AA00B219F8D3D800E3AE25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				460EB29119F3CC9000DA3E9A /* DetailViewController.swift in Sources */,
-				460EB28F19F3CC9000DA3E9A /* MasterViewController.swift in Sources */,
-				460EB28D19F3CC9000DA3E9A /* AppDelegate.swift in Sources */,
+				46AA00C119F8D3D800E3AE25 /* ViewController.swift in Sources */,
+				46AA00BF19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld in Sources */,
+				46AA00BC19F8D3D800E3AE25 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		460EB29A19F3CC9000DA3E9A /* Sources */ = {
+		46AA00CA19F8D3D800E3AE25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				460EB2A519F3CC9000DA3E9A /* donut_selfieTests.swift in Sources */,
+				46AA00D519F8D3D800E3AE25 /* donut_selfieTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		460EB2A019F3CC9000DA3E9A /* PBXTargetDependency */ = {
+		46AA00D019F8D3D800E3AE25 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 460EB28619F3CC9000DA3E9A /* donut-selfie */;
-			targetProxy = 460EB29F19F3CC9000DA3E9A /* PBXContainerItemProxy */;
+			target = 46AA00B519F8D3D800E3AE25 /* donut-selfie */;
+			targetProxy = 46AA00CF19F8D3D800E3AE25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		460EB29219F3CC9000DA3E9A /* Main.storyboard */ = {
+		46AA00C219F8D3D800E3AE25 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				460EB29319F3CC9000DA3E9A /* Base */,
+				46AA00C319F8D3D800E3AE25 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		460EB29719F3CC9000DA3E9A /* LaunchScreen.xib */ = {
+		46AA00C719F8D3D800E3AE25 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				460EB29819F3CC9000DA3E9A /* Base */,
+				46AA00C819F8D3D800E3AE25 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		460EB2A619F3CC9000DA3E9A /* Debug */ = {
+		46AA00D619F8D3D800E3AE25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,7 +302,7 @@
 			};
 			name = Debug;
 		};
-		460EB2A719F3CC9000DA3E9A /* Release */ = {
+		46AA00D719F8D3D800E3AE25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,29 +338,27 @@
 			};
 			name = Release;
 		};
-		460EB2A919F3CC9000DA3E9A /* Debug */ = {
+		46AA00D919F8D3D800E3AE25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "donut-selfie/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		460EB2AA19F3CC9000DA3E9A /* Release */ = {
+		46AA00DA19F8D3D800E3AE25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "donut-selfie/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		460EB2AC19F3CC9000DA3E9A /* Debug */ = {
+		46AA00DC19F8D3D800E3AE25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -379,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		460EB2AD19F3CC9000DA3E9A /* Release */ = {
+		46AA00DD19F8D3D800E3AE25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -397,32 +395,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		460EB28219F3CC9000DA3E9A /* Build configuration list for PBXProject "donut-selfie" */ = {
+		46AA00B119F8D3D800E3AE25 /* Build configuration list for PBXProject "donut-selfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				460EB2A619F3CC9000DA3E9A /* Debug */,
-				460EB2A719F3CC9000DA3E9A /* Release */,
+				46AA00D619F8D3D800E3AE25 /* Debug */,
+				46AA00D719F8D3D800E3AE25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		460EB2A819F3CC9000DA3E9A /* Build configuration list for PBXNativeTarget "donut-selfie" */ = {
+		46AA00D819F8D3D800E3AE25 /* Build configuration list for PBXNativeTarget "donut-selfie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				460EB2A919F3CC9000DA3E9A /* Debug */,
-				460EB2AA19F3CC9000DA3E9A /* Release */,
+				46AA00D919F8D3D800E3AE25 /* Debug */,
+				46AA00DA19F8D3D800E3AE25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		460EB2AB19F3CC9000DA3E9A /* Build configuration list for PBXNativeTarget "donut-selfieTests" */ = {
+		46AA00DB19F8D3D800E3AE25 /* Build configuration list for PBXNativeTarget "donut-selfieTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				460EB2AC19F3CC9000DA3E9A /* Debug */,
-				460EB2AD19F3CC9000DA3E9A /* Release */,
+				46AA00DC19F8D3D800E3AE25 /* Debug */,
+				46AA00DD19F8D3D800E3AE25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46AA00BD19F8D3D800E3AE25 /* donut_selfie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46AA00BE19F8D3D800E3AE25 /* donut_selfie.xcdatamodel */,
+			);
+			currentVersion = 46AA00BE19F8D3D800E3AE25 /* donut_selfie.xcdatamodel */;
+			path = donut_selfie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 460EB27F19F3CC9000DA3E9A /* Project object */;
+	rootObject = 46AA00AE19F8D3D800E3AE25 /* Project object */;
 }
