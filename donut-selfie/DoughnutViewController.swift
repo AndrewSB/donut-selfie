@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DoughnutViewController: UIViewController {
+class DoughnutViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +31,41 @@ class DoughnutViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-    @IBAction func addNutButtonWasHit(sender: AnyObject) {
+    
+    @IBAction func nutButtonWasHit(sender: AnyObject) {
+        println("lol")
+        
+        let alertController = UIAlertController(title: nil, message: "", preferredStyle: .ActionSheet)
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
+            // ...
+            })
+        alertController.addAction(UIAlertAction(title: "Take Video", style: .Default) { (action) in
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.allowsEditing = true
+            picker.sourceType = .Camera
+            })
+        alertController.addAction(UIAlertAction(title: "Add From Camera Roll", style: .Default) { (action) in
+            let picker = UIImagePickerController()
+            picker.delegate = self
+            picker.allowsEditing = true
+            picker.sourceType = .PhotoLibrary
+            })
+        
+        self.presentViewController(alertController, animated: true) {
+        }
     }
-
+    
+    
+    //MARK: UIImagePickerControllerDelegate Methods
+    
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+        let chosenImage: UIImage! = info[UIImagePickerControllerEditedImage] as UIImage
+        
+        picker.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    func imagePickerControllerDidCancel(picker: UIImagePickerController) {
+        picker.dismissViewControllerAnimated(true, completion: nil)
+    }
 }
