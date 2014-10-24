@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import CoreData
 
 class DoughnutViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        println(managedObjectContext!)
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +22,17 @@ class DoughnutViewController: UIViewController, UIImagePickerControllerDelegate,
         // Dispose of any resources that can be recreated.
     }
     
+    lazy var managedObjectContext : NSManagedObjectContext? = {
+        let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
+        if let managedObjectContext = appDelegate.managedObjectContext {
+            return managedObjectContext
+        }
+        else {
+            return nil
+        }
+        }()
+
+
 
     /*
     // MARK: - Navigation
@@ -59,8 +71,10 @@ class DoughnutViewController: UIViewController, UIImagePickerControllerDelegate,
     
     //MARK: UIImagePickerControllerDelegate Methods
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
-        let chosenImage: UIImage! = info[UIImagePickerControllerEditedImage] as UIImage
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: NSDictionary!) {
+        let moviePath = info.objectForKey(UIImagePickerControllerMediaURL) as String
+        let movieUrl: NSURL = info.objectForKey(UIImagePickerControllerMediaURL)! as NSURL
+        let movieData: NSData = NSData(contentsOfURL: movieUrl)!
         
         picker.dismissViewControllerAnimated(true, completion: nil)
     }
