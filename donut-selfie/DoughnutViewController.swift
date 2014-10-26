@@ -47,7 +47,7 @@ class DoughnutViewController: UIViewController, UIImagePickerControllerDelegate,
     @IBAction func nutButtonWasHit(sender: AnyObject) {
         println("lol")
         
-        let alertController = UIAlertController(title: nil, message: "", preferredStyle: .ActionSheet)
+        let alertController = UIAlertController(title: nil, message: nil, preferredStyle: .ActionSheet)
         alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel) { (action) in
             // ...
             })
