@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import AVFoundation
 
 class DoughnutViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
@@ -81,5 +82,16 @@ class DoughnutViewController: UIViewController, UIImagePickerControllerDelegate,
     
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
         picker.dismissViewControllerAnimated(true, completion: nil)
+        
+        // at this point store the picker.chosenItem in the documents, generate a url, and store that in a new nut obj
+        
+        //
+        // self.generateThumbnail(<#url: NSURL#>)
+        
+    }
+    
+    func generateThumbnail(url: NSURL) -> UIImage {
+        let image = UIImage(named: "lol")
+        return image!;
     }
 }
